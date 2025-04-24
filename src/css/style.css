@@ -1,0 +1,55 @@
+html, body{
+    font-family: sans-serif;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+header, footer{
+    background-color: #641c34;
+    color: white;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(193, 193, 193);
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.footer-container{
+    display: block;
+    padding: 5px 15px;
+}
+
+.footer-about p, h3{
+    margin: 3px;
+}
+
+.footer-bottom{
+    margin: 10px 0px;
+}
+
+.footer-bottom p{
+    margin: 0px;
+}
