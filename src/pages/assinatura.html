@@ -1,184 +1,106 @@
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assinatura</title>
-    <link rel="stylesheet" href="/index.html">
-    <style>
-        body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-        }
-        
-        nav {
-            color: #641c34;
-        }
-
-        header {
-          background: #641c34;
-          color: black;
-          padding: 10px 20px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-
-        .logo-itens {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .logo-itens img {
-      height: 40px;
-    }
-
-    nav a {
-      color: black;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-     
-    }
-
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    h1, h2, h3 {
-      color: #641c34;
-    }
-
-    .itens {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    .card, .plano {
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      padding: 20px;
-      width: 250px;
-    }
-
-    button {
-      margin-top: 10px;
-      padding: 10px;
-      background-color: #641c34;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #641c34;
-    }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assinatura</title>
+  <link rel="stylesheet" href="/src/css/assinatura.css">
 </head>
 <body>
-    <header>
-        <div class="logo-itens">
-          <img src="/src/assets/imgs/logo.png" alt="Logo Vinharia Agnello">
-          <span style="font-size: 1.2em; font-weight: bold;">Vinharia Agnello</span>
-        </div>
-        <nav>
-          <a href="/index.html">Início</a>
-          <a href="/src/pages/sobre.html">Sobre</a>
-          <a href="/src/pages/loja.html">Loja</a>
-          <a href="/src/pages/assinatura.html">Clube</a>
-          <a href="/src/pages/contato.html">Contato</a>
-        </nav>
-      </header>
+  <header>
+    <div class="logo-itens">
+      <img src="/src/assets/imgs/logo.png" alt="Logo Vinharia Agnello">
+      <span style="font-size: 1.2em; font-weight: bold;">Vinharia Agnello</span>
+    </div>
+    <nav>
+      <a href="/index.html">Início</a>
+      <a href="/src/pages/sobre.html">Sobre</a>
+      <a href="/src/pages/loja.html">Loja</a>
+      <a href="/src/pages/assinatura.html">Clube</a>
+      <a href="/src/pages/contato.html">Contato</a>
+    </nav>
+  </header>
 
-      <section>
-        <h2>Uma experiência exclusiva a cada mês</h2>
-        <p>Receba vinhos selecionados por especialistas, diretamente na sua casa.</p>
-      </section>
-      
-        <section>
-            <h2>Benefícios dos Assinantes</h2>
-            <div class="itens">
-                <div class="card">
-                    <h3>Degustações Exclusivas</h3>
-                    <p>Receba convites exclusivos para eventos de degustação com sommeliers e especialistas.</p>
-                </div>
-                <div class="card">
-                <h3>Acesso Exclusivo</h3>
-                <p>Descubra rótulos exclusivos e edições limitadas disponíveis apenas para assinantes.</p>
-            </div>
-            <div class="card">
-                <h3>Preços Especiais</h3>
-                <p>Economize em grande estilo com até 30% de desconto nos melhores rótulos da nossa curadoria.</p>
-            </div>
-            <div class="card">
-                <h3>Brindes Exclusivos</h3>
-                <p>Surpresas como vinhos recém-lançados e outros brindes.</p>
-            </div>
-            <div class="card">
-                <h3>Conteúdos Especializado</h3>
-                <p>Dicas e informações detalhada sobre o mundo dos vinhos.</p>
-            </div>
-            </div>
-        </section>
-        <section>
-            <h2>Nossos Planos</h2>
-            <div class="itens">
-                <div class="plano">
-                <h3>Plano Basic</h3>
-                <p><strong>R$ 109,90/mês</strong></p>
-                <p>1 garrafas por mês</p>
-                <button>Assinar agora</button>
-            </div>
-            <div class="plano">
-                <h3>Plano Standard</h3>
-                <p><strong>R$ 224,90/mês</strong></p>
-                <p>2 garrafas + conteúdo digital</p>
-                <button>Assinar agora</button>
-            </div>
-            <div class="plano">
-                <h3>Plano Plus</h3>
-                <p><strong>R$ 390,90/mês</strong></p>
-                <p>4 garrafas + benefícios exclusivos + conteúdo digital</p>
-                <button>Assinar agora</button>
-            </div>
-            <div class="plano">
-                <h3>Plano Premium</h3>
-                <p><strong>R$ 599,90/mês</strong></p>
-                <p>6 garrafas + benefícios exclusivos + conteudo digital + brindes</p>
-                <button>Assinar agora</button>
-            </div>
-            </div>
-        </section>
-      
-        <section>
-            <h2>O que dizem nossos assinantes</h2>
-            <div class="itens">
-            <div class="card">
-                <p>"Amo o Clube Agnello! Sempre recebo vinhos incríveis."</p>
-                <p>- Carlos Mendes</p>
-            </div>
-            <div class="card">
-                <p>"Já aprendi muito sobre vinhos com o conteúdo especializado."</p>
-                <p>- Mariana Santos</p>
-            </div>
-            <div class="card">
-                <p>"Os eventos de degustação são sensacionais!"</p>
-                <p>- Ricardo Oliveira</p>
-            </div>
-            </div>
-        </section>
-        
-        <footer>
-            <p>&copy; 2025 Vinharia Agnello</p>
-        </footer>
-    
+  <section>
+    <h2>Uma experiência exclusiva a cada mês</h2>
+    <p>Receba vinhos selecionados por especialistas, diretamente na sua casa.</p>
+  </section>
+  
+  <section>
+    <h2>Benefícios dos Assinantes</h2>
+    <div class="itens">
+      <div class="card">
+        <h3>Degustações Exclusivas</h3>
+        <p>Receba convites exclusivos para eventos de degustação com sommeliers e especialistas.</p>
+      </div>
+      <div class="card">
+        <h3>Acesso Exclusivo</h3>
+        <p>Descubra rótulos exclusivos e edições limitadas disponíveis apenas para assinantes.</p>
+      </div>
+      <div class="card">
+        <h3>Preços Especiais</h3>
+        <p>Economize em grande estilo com até 30% de desconto nos melhores rótulos da nossa curadoria.</p>
+      </div>
+      <div class="card">
+        <h3>Brindes Exclusivos</h3>
+        <p>Surpresas como vinhos recém-lançados e outros brindes.</p>
+      </div>
+      <div class="card">
+        <h3>Conteúdos Especializado</h3>
+        <p>Dicas e informações detalhada sobre o mundo dos vinhos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossos Planos</h2>
+    <div class="itens">
+      <div class="plano">
+        <h3>Plano Basic</h3>
+        <p><strong>R$ 109,90/mês</strong></p>
+        <p>1 garrafas por mês</p>
+        <button>Assinar agora</button>
+      </div>
+      <div class="plano">
+        <h3>Plano Standard</h3>
+        <p><strong>R$ 224,90/mês</strong></p>
+        <p>2 garrafas + conteúdo digital</p>
+        <button>Assinar agora</button>
+      </div>
+      <div class="plano">
+        <h3>Plano Plus</h3>
+        <p><strong>R$ 390,90/mês</strong></p>
+        <p>4 garrafas + benefícios exclusivos + conteúdo digital</p>
+        <button>Assinar agora</button>
+      </div>
+      <div class="plano">
+        <h3>Plano Premium</h3>
+        <p><strong>R$ 599,90/mês</strong></p>
+        <p>6 garrafas + benefícios exclusivos + conteudo digital + brindes</p>
+        <button>Assinar agora</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>O que dizem nossos assinantes</h2>
+    <div class="itens">
+      <div class="card">
+        <p>"Amo o Clube Agnello! Sempre recebo vinhos incríveis."</p>
+        <p>- Carlos Mendes</p>
+      </div>
+      <div class="card">
+        <p>"Já aprendi muito sobre vinhos com o conteúdo especializado."</p>
+        <p>- Mariana Santos</p>
+      </div>
+      <div class="card">
+        <p>"Os eventos de degustação são sensacionais!"</p>
+        <p>- Ricardo Oliveira</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vinharia Agnello</p>
+  </footer>
 </body>
 </html>
