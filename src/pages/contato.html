@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello - Contato</title>
 </head>
+
 <body>
-    <a href="/index.html">Home</a>
-    <a href="sobre.html">Sobre</a>
+    <div class="titulo">
+    <center>
+   <h1>Entre em Contato</h1>
+   <hr style="width: 13%;">
+    </center>
+    <div class="form">
+    <form name="form_contato" id="form_contato" action="php/enviar_contato.php" method="post">
+            <p> <label> Nome: </label></p>
+            <input type="text" label="nome" class="campo" name="nome"/>
+            <p> <label> Sobrenome:</label></p>
+           
+            <input type="text" label="nome" class="campo" name="nome"/><br>
+            <p> <label for=" telefone"> Telefone: </label></p>
+            <input type="text" class="campo" name="telefone" id="telefone" required/> <br><br>
+            <select>
+                <option value="assunto">Assunto</option>
+                <option value="duvida">Dúvida</option>
+                <option value="compra">Compra</option>
+                <option value="outro">Outro</option>
+            </select><br>
+            <textarea placeholder="Mensagem" rows="4"></textarea><br><br>
+            <button>Enviar Mensagem</button>
+        </form>
+    </div>
+    
+        <h2>Visite Nossa Vinícola</h2>
+    <img src="/src/assets/imgs/images.jpeg" alt="Vinícola">
+  
+      <h3>Experiência Completa</h3>
+      <p>Convidamos você a conhecer de perto o processo de produção dos nossos vinhos com uma visita guiada pelas nossas vinícolas. Durante o tour, você conhecerá os vinhedos, a adega de produção e participará de uma degustação exclusiva.</p>
+      <p><strong>O que inclui:</strong></p>
+      <ul>
+        <li>Tour pelos vinhedos</li>
+        <li>Visita à adega e barris</li>
+        <li>Explicação sobre o processo de produção</li>
+        <li>Degustação de vinhos</li>
+        <li>Kit de boas-vindas</li>
+      </ul>
+      <p><strong>Duração:</strong> 2 horas &nbsp;&nbsp;&nbsp; <strong>Valor:</strong> R$120,00 por pessoa</p>
+      <p><strong>Data:</strong> Terça a Sábado &nbsp;&nbsp;&nbsp; <strong>Horários:</strong> 10h, 14h e 16h</p>
+      <p><em>É necessário agendar com antecedência mínima de 48 horas.</em></p>
+      <button>Agendar Visita</button>
+    
+  
+    
+    
 </body>
 </html>
