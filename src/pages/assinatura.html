@@ -24,13 +24,13 @@
           justify-content: space-between;
         }
 
-        .logo-container {
+        .logo-itens {
       display: flex;
       align-items: center;
       gap: 10px;
     }
 
-    .logo-container img {
+    .logo-itens img {
       height: 40px;
     }
 
@@ -55,7 +55,7 @@
       color: #641c34;
     }
 
-    .container {
+    .itens {
       display: flex;
       justify-content: center;
       gap: 20px;
@@ -76,11 +76,16 @@
       border: none;
       cursor: pointer;
     }
-      </style>
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #641c34;
+    }
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo-container">
+        <div class="logo-itens">
           <img src="/src/assets/imgs/logo.png" alt="Logo Vinharia Agnello">
           <span style="font-size: 1.2em; font-weight: bold;">Vinharia Agnello</span>
         </div>
@@ -98,59 +103,82 @@
         <p>Receba vinhos selecionados por especialistas, diretamente na sua casa.</p>
       </section>
       
-      <section>
-        <h2>Benefícios dos Assinantes</h2>
-        <div class="container">
+        <section>
+            <h2>Benefícios dos Assinantes</h2>
+            <div class="itens">
+                <div class="card">
+                    <h3>Degustações Exclusivas</h3>
+                    <p>Receba convites exclusivos para eventos de degustação com sommeliers e especialistas.</p>
+                </div>
+                <div class="card">
+                <h3>Acesso Exclusivo</h3>
+                <p>Descubra rótulos exclusivos e edições limitadas disponíveis apenas para assinantes.</p>
+            </div>
             <div class="card">
-                <h3>Degustações Exclusivas</h3>
-                <p>Receba convites exclusivos para eventos de degustação com sommeliers e especialistas.</p>
-              </div>
+                <h3>Preços Especiais</h3>
+                <p>Economize em grande estilo com até 30% de desconto nos melhores rótulos da nossa curadoria.</p>
+            </div>
             <div class="card">
-            <h3>Acesso Exclusivo</h3>
-            <p>Descubra rótulos exclusivos e edições limitadas disponíveis apenas para assinantes.</p>
-          </div>
-          <div class="card">
-            <h3>Preços Especiais</h3>
-            <p>Economize em grande estilo com até 30% de desconto nos melhores rótulos da nossa curadoria.</p>
-          </div>
-          <div class="card">
-            <h3>Brindes Exclusivos</h3>
-            <p>Surpresas como vinhos recém-lançados e outros brindes.</p>
-          </div>
-          <div class="card">
-            <h3>Conteúdos Especializado</h3>
-            <p>Dicas e informações detalhada sobre o mundo dos vinhos.</p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h2>Nossos Planos</h2>
-        <div class="container">
-          <div class="plano">
-            <h3>Plano Basic</h3>
-            <p><strong>R$ 109,90/mês</strong></p>
-            <p>1 garrafas por mês</p>
-            <button>Assinar agora</button>
-          </div>
-          <div class="plano">
-            <h3>Plano Standard</h3>
-            <p><strong>R$ 224,90/mês</strong></p>
-            <p>2 garrafas + conteúdo digital</p>
-            <button>Assinar agora</button>
-          </div>
-          <div class="plano">
-            <h3>Plano Plus</h3>
-            <p><strong>R$ 390,90/mês</strong></p>
-            <p>4 garrafas + benefícios exclusivos + conteúdo digital</p>
-            <button>Assinar agora</button>
-          </div>
-          <div class="plano">
-            <h3>Plano Premium</h3>
-            <p><strong>R$ 599,90/mês</strong></p>
-            <p>6 garrafas + benefícios exclusivos + conteudo digital + brindes</p>
-            <button>Assinar agora</button>
-          </div>
-        </div>
-      </section>
+                <h3>Brindes Exclusivos</h3>
+                <p>Surpresas como vinhos recém-lançados e outros brindes.</p>
+            </div>
+            <div class="card">
+                <h3>Conteúdos Especializado</h3>
+                <p>Dicas e informações detalhada sobre o mundo dos vinhos.</p>
+            </div>
+            </div>
+        </section>
+        <section>
+            <h2>Nossos Planos</h2>
+            <div class="itens">
+                <div class="plano">
+                <h3>Plano Basic</h3>
+                <p><strong>R$ 109,90/mês</strong></p>
+                <p>1 garrafas por mês</p>
+                <button>Assinar agora</button>
+            </div>
+            <div class="plano">
+                <h3>Plano Standard</h3>
+                <p><strong>R$ 224,90/mês</strong></p>
+                <p>2 garrafas + conteúdo digital</p>
+                <button>Assinar agora</button>
+            </div>
+            <div class="plano">
+                <h3>Plano Plus</h3>
+                <p><strong>R$ 390,90/mês</strong></p>
+                <p>4 garrafas + benefícios exclusivos + conteúdo digital</p>
+                <button>Assinar agora</button>
+            </div>
+            <div class="plano">
+                <h3>Plano Premium</h3>
+                <p><strong>R$ 599,90/mês</strong></p>
+                <p>6 garrafas + benefícios exclusivos + conteudo digital + brindes</p>
+                <button>Assinar agora</button>
+            </div>
+            </div>
+        </section>
+      
+        <section>
+            <h2>O que dizem nossos assinantes</h2>
+            <div class="itens">
+            <div class="card">
+                <p>"Amo o Clube Agnello! Sempre recebo vinhos incríveis."</p>
+                <p>- Carlos Mendes</p>
+            </div>
+            <div class="card">
+                <p>"Já aprendi muito sobre vinhos com o conteúdo especializado."</p>
+                <p>- Mariana Santos</p>
+            </div>
+            <div class="card">
+                <p>"Os eventos de degustação são sensacionais!"</p>
+                <p>- Ricardo Oliveira</p>
+            </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Vinharia Agnello</p>
+        </footer>
+    
 </body>
 </html>
