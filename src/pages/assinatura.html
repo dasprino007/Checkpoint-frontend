@@ -23,6 +23,37 @@
           align-items: center;
           justify-content: space-between;
         }
+
+        .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      height: 40px;
+    }
+
+    nav a {
+      color: #641c34;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1, h2, h3 {
+      color: #641c34;
+    }
+
       </style>
 </head>
 <body>
@@ -39,5 +70,32 @@
           <a href="#">Contato</a>
         </nav>
       </header>
+
+      <section>
+        <h2>Uma experiência exclusiva a cada mês</h2>
+        <p>Receba vinhos selecionados por especialistas, diretamente na sua casa.</p>
+      </section>
+      
+      <section>
+        <h2>Benefícios dos Assinantes</h2>
+        <div class="container">
+          <div class="card">
+            <h3>Acesso Exclusivo</h3>
+            <p>Tenha acesso a rótulos limitados.</p>
+          </div>
+          <div class="card">
+            <h3>Preços Especiais</h3>
+            <p>Descontos de até 30% em rótulos selecionados.</p>
+          </div>
+          <div class="card">
+            <h3>Degustações Exclusivas</h3>
+            <p>Convites para eventos de degustação.</p>
+          </div>
+          <div class="card">
+            <h3>Conteúdo Especializado</h3>
+            <p>Dicas e informações sobre o mundo dos vinhos.</p>
+          </div>
+        </div>
+      </section>
 </body>
 </html>
