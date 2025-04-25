@@ -19,10 +19,9 @@ O projeto é composto pelas seguintes páginas:
 ## 👥 Nome dos Integrantes
 
 - RM561606 -> Vinicius Alexandre Aureliano Ribeiro
-- Henrique de Oliveira
-- Henrique
-- Matheus
-- Diego Leite Asprino
+- RM561982 -> Matheus Santos de Oliveira 
+- RM563467 -> Henrique Kolomyes Silveira
+- RM561662 -> Diego Leite Asprino
 
 ## 🌐 Link para o Site Publicado
 
