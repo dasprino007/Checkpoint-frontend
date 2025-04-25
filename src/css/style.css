@@ -51,7 +51,7 @@
   .hero {
     position: relative;
     height: 400px;
-    background-image: url('https://wallpapers.com/images/hd/wine-background-uk1erk0z2ou1t1w9.jpg');       
+    background-image: url('../assets/imgs/wine-background.jpg');       
     background-size: cover;
     background-position: center;
     display: flex;
@@ -162,21 +162,21 @@
   
   /* Loja */
 .loja-page .hero {
-    background-image: url('https://santaaugusta.com.br/wp-content/uploads/2019/09/entendendo-as-cores-dos-vinhos.jpg'); /* Caminho da imagem para a loja */
+    background-image: url('../assets/imgs/entendendo-as-cores-dos-vinhos.jpg'); /* Caminho da imagem para a loja */
     background-size: cover;
     background-position: center;
 }
 
 /* Assinatura */
 .assinatura-page .hero {
-    background-image: url('https://wallpapers.com/images/hd/wine-pictures-l6rvdm82l8nqotct.jpg'); /* Caminho da imagem para assinatura */
+    background-image: url('../assets/imgs/wine-pictures.jpg'); /* Caminho da imagem para assinatura */
     background-size: cover;
     background-position: center;
 }
 
 
 .contato-page .hero {
-    background-image: url('https://wallpapers.com/images/featured/vinho-sar6tqxx8jy5d71x.jpg'); /* Caminho da imagem para contato */
+    background-image: url('../assets/imgs/vinho-sar6tqxx8jy5d71x.jpg'); /* Caminho da imagem para contato */
     background-size: cover;
     background-position: center;
 }
