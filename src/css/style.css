@@ -197,6 +197,26 @@
   .button-assinar:active {
     transform: scale(0.95);
   }
+
+  .button-saiba-mais {
+    background-color: #6b0f1a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button-saiba-mais:hover {
+    background-color: #912f40;
+    transform: scale(1.05);
+  }
+  
+  .button-saiba-mais:active {
+    transform: scale(0.95);
+  }
   
   ul {
     list-style: none;
