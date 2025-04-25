@@ -115,7 +115,7 @@ section p {
 
 .valor-item {
   background-color: #fdf9f4;
-  padding: 20px;
+  padding: 40px;
   border-left: 5px solid #6b0f1a;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -149,4 +149,47 @@ footer a {
 
 footer a:hover {
   color: #912f40;
+}
+
+.contato-page .hero {
+  background-image: url('https://wallpapers.com/images/featured/vinho-sar6tqxx8jy5d71x.jpg');
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.valor-item {
+  margin-top: 20px;
+}
+
+.button-assinar {
+  background-color: #6b0f1a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-assinar:hover {
+  background-color: #912f40;
+  transform: scale(1.05);
+}
+
+.button-assinar:active {
+  transform: scale(0.95);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
