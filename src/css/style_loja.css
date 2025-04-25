@@ -11,14 +11,16 @@
     width: 100px;
     height: 20px;
     background-color: beige;
-    border-radius: 14px;
+    border-radius: 5px 5px 5px 5px;
     border: solid black 1px;
+    font-weight: bold;
 }
 .loja_button:hover{
     margin-left: 20px;
     width: 100px;
     height: 20px;
     background-color: #641c34;
+    border-radius: 5px 5px 5px 5px;
     color: aliceblue;
 }
 .ordenamento_loja{
@@ -39,19 +41,17 @@
     display: flex;
 }
 .menu_loja{
-    
-}
-.fundo_menu{
     width: 900px;
-    height: 500px;
+    height: 700px;
     margin-left: 220px;
     border: solid #641c34 10px;
     border-radius: 14px 14px 0 0;
     margin-top: 50px;
     background-color: rgb(255, 251, 246);
+    /*display: flex;*/
 }
 .title_menu{
-    margin-left: 40%;
+    margin-left: 42%;
     color: aliceblue;
     background-color: #641c34;
     width: 90px;
@@ -60,4 +60,39 @@
     border-radius: 0 0 10px 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+}
+.img_vinho{
+    width: 180px;
+    height: 200px;
+}
+.produtos{
+    margin-left: 55px;
+    display: flex;
+}
+.produtos_2{
+    margin-left: 55px;
+    display: flex;
+    margin-top: 30px;
+}
+.produto_1{
+    width: 210px;
+    height: 260px;
+    border: #641c34 solid 2px;
+    background-color: white;
+    border-radius: 0 14px 0 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.produto_1:hover{
+    width: 210px;
+    height: 260px;
+    border: #bb003e solid 2px;
+    background-color: white;
+    border-radius: 0 14px 0 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.nome_vinho{
+    margin-top: 0;
+    margin-left: 5px;
 }
