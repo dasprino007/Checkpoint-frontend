@@ -108,17 +108,17 @@
 }
 
 .topo_loja{
-    background-image: url(/src/assets/imgs/wallpaper_loja4.PNG);
-    height: 340px;
+    background-image: url(/src/assets/imgs/wallpaper_loja5.JPG);
+    height: 450px;
     width: 100%;
     padding: 0;
     background-size: cover;
+    border-radius: 0;
 }
 .paragrafo_loja{
     color: aliceblue;
-    margin-left: 37%;
+    margin-left: 32%;
     font-family: 'Playfair Display', serif;
-    padding-top: 180px;
-
-    font-size: 1.8em;
+    padding-top: 200px;
+    font-size: 3em;
 }
