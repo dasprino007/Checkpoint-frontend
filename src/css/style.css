@@ -5,8 +5,59 @@ html, body{
     margin: 0px;
 }
 
-header, footer{
+button {
     background-color: #641c34;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a00000;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+nav {
+    color: #641c34;
+}
+
+nav a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #641c34;
+    color: black;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #641c34;
     color: white;
 }
 
@@ -16,21 +67,17 @@ main{
     align-items: center;
 }
 
-a:link{
-    color: white;
-    text-decoration: none;
+  .logo-itens {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-a:visited{
-    color: rgb(193, 193, 193);
-}
-
-img {
-    max-width: 100%;
+.logo-itens img {
+    width: 40px;
     height: auto;
-    display: block;
-  }
-  
+}
+
 .header-container{
     display: flex;
     flex-direction: row;

@@ -9,8 +9,10 @@
 .loja_button{
     margin-left: 20px;
     width: 100px;
-    height: 20px;
+    height: auto;
+    color: black;
     background-color: beige;
+    font-weight: bold;
     border-radius: 5px 5px 5px 5px;
     border: solid black 1px;
     font-weight: bold;
@@ -18,7 +20,8 @@
 .loja_button:hover{
     margin-left: 20px;
     width: 100px;
-    height: 20px;
+    height: auto;
+    font-weight: bolder;
     background-color: #641c34;
     border-radius: 5px 5px 5px 5px;
     color: aliceblue;
@@ -48,7 +51,7 @@
 }
 .menu_loja{
     width: 900px;
-    height: 700px;
+    height: auto;
     margin-left: 220px;
     border: solid #641c34 10px;
     border-radius: 14px 14px 0 0;
@@ -70,7 +73,7 @@
 }
 .img_vinho{
     width: 180px;
-    height: 200px;
+    height: auto;
 }
 .produtos{
     margin-left: 55px;
@@ -80,10 +83,11 @@
     margin-left: 55px;
     display: flex;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .produto_1{
     width: 210px;
-    height: 260px;
+    height: auto;
     border: #641c34 solid 2px;
     background-color: white;
     border-radius: 0 14px 0 14px;
@@ -92,7 +96,7 @@
 }
 .produto_1:hover{
     width: 210px;
-    height: 260px;
+    height: auto;
     border: #bb003e solid 2px;
     background-color: white;
     border-radius: 0 14px 0 14px;
