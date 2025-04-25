@@ -33,6 +33,12 @@
     border: solid #641c34 5px;
     border-radius: 0 14px 14px 14px;
 }
+.barra_pesquisa:hover{
+    margin-left: 50px;
+    width: 300px;
+    border: solid #bb003e 5px;
+    border-radius: 0 14px 14px 14px;
+}
 .text_pesquisa{
     margin-left: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,6 +51,7 @@
     height: 700px;
     margin-left: 220px;
     border: solid #641c34 10px;
+    border-bottom: 0;
     border-radius: 14px 14px 0 0;
     margin-top: 50px;
     background-color: rgb(255, 251, 246);
