@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdf9f4;
+  color: #333;
+  line-height: 1.7;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #6b0f1a;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f3cccc;
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  background-image: url('https://wallpapers.com/images/hd/wine-background-uk1erk0z2ou1t1w9.jpg');       
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #ffffff;
+  z-index: 1;
+  text-align: center;
+  max-width: 80%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 30px;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #6b0f1a;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  border-left: 5px solid #912f40;
+  padding-left: 15px;
+}
+
+section p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.valores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.valor-item {
+  background-color: #fdf9f4;
+  padding: 20px;
+  border-left: 5px solid #6b0f1a;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.valor-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.valor-item strong {
+  font-size: 1.2em;
+  color: #6b0f1a;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #912f40;
+}
