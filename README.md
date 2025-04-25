@@ -18,7 +18,7 @@ O projeto é composto pelas seguintes páginas:
 
 ## 👥 Nome dos Integrantes
 
-- Vinicius Alexandre Aureliano Ribeiro
+- RM561606 -> Vinicius Alexandre Aureliano Ribeiro
 - Henrique de Oliveira
 - Henrique
 - Matheus
