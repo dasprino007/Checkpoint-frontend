@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/style_loja.css">
-    <link rel="stylesheet" href="/src/css/style.css">
-    <title>Loja</title>
-
+    <link rel="stylesheet" href="/src/css/style_sobre.css" />
+    <title>Loja | Vinheria Agnello</title>
 </head>
 <body>
-    <header>
-        <div class="logo-itens">
-          <img src="/src/assets/imgs/logo.png" alt="Logo Vinharia Agnello">
-          <span style="font-size: 1.2em; font-weight: bold;">Vinharia Agnello</span>
+    <nav>
+        <div class="nav-container">
+          <a href="#" class="nav-logo">Vinheria Agnello</a>
+          <div class="nav-links">
+            <a href="/index.html">Início</a>
+            <a href="/src/pages/sobre.html">Sobre</a>
+            <a href="/src/pages/loja.html">Loja</a>
+            <a href="/src/pages/assinatura.html">Clube</a>
+            <a href="/src/pages/contato.html">Contato</a>
+          </div>
         </div>
-        <nav>
-          <a href="/index.html">Início</a>
-          <a href="/src/pages/sobre.html">Sobre</a>
-          <a href="/src/pages/loja.html">Loja</a>
-          <a href="/src/pages/assinatura.html">Clube</a>
-          <a href="/src/pages/contato.html">Contato</a>
-        </nav>
-      </header>
+      </nav>
     <!--<section class="inicio_loja">
         <img class="img_loja" src="/src/assets/imgs/wallpaper_loja.webp">
         <h2 class="title_loja">Conheça nossos vinhos abaixo!</h2>
@@ -32,11 +30,11 @@
     </section>-->
 
     <section class="topo_loja">
-        <h3 class="paragrafo_loja">"Descubra os sabores e aromas que encantam gerações. Nossa seleção de vinhos foi cuidadosamente escolhida para oferecer experiências únicas a cada taça — dos clássicos encorpados aos brancos refrescantes, brindamos à sua melhor escolha."</h3>
+        <h3 class="paragrafo_loja">Descubra nossos vinhos</h3>
     </section>
 
     <section class="pesquisa_loja">
-        <h3 class="text_pesquisa">Pesquise seu vinho:</h3>
+        <h1 class="text_pesquisa">Pesquise seu vinho:</h1>
         <input type="text" class="barra_pesquisa" placeholder="Digite aqui">
         <div class="ordenamento_loja">
             <button class="loja_button">Ordenar</button>
@@ -44,9 +42,9 @@
         </div>
     </section>
     <section class="menu_loja">
-        <div>
+        <!--<div>
             <h2 class="title_menu">Menu</h2>
-        </div>
+        </div>-->
         <div class="produtos">
             <div class="produto_1">
                 <img class="img_vinho" src="/src/assets/imgs/vinho_amancaya.webp">
@@ -78,7 +76,11 @@
     </section>
     
     <footer>
-        <p>&copy; 2025 Vinharia Agnello</p>
-    </footer>
+        <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+        <p>
+          <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+        </p>
+      </footer>
+    
 </body>
 </html>
