@@ -26,4 +26,4 @@ O projeto é composto pelas seguintes páginas:
 
 ## 🌐 Link para o Site Publicado
 
-[Site da Vinheria Agnello no GitHub Pages](https://github.com/seu-usuario/seu-repositorio)
+[Site da Vinheria Agnello no GitHub Pages](https://dasprino007.github.io/Checkpoint-frontend/)
