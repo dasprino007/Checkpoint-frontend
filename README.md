@@ -22,7 +22,7 @@ O projeto é composto pelas seguintes páginas:
 - Henrique de Oliveira
 - Henrique
 - Matheus
-- Diego
+- Diego Leite Asprino
 
 ## 🌐 Link para o Site Publicado
 
