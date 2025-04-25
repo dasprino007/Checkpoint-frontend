@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/style_loja.css">
-    <link rel="stylesheet" href="/src/css/style_sobre.css" />
+    <meta name="description" content="Descubra a seleção de vinhos da Vinheria Agnello. Compre os melhores rótulos e aproveite a experiência única de degustar vinhos selecionados." />
+    <meta name="keywords" content="vinhos, vinheria, Agnello, tradição, sabor, seleção de vinhos" />
+    <meta name="author" content="Vinheria Agnello" />
     <title>Loja | Vinheria Agnello</title>
+    <link rel="stylesheet" href="/src/css/style_sobre.css" />
 </head>
 <body>
     <nav>
@@ -19,68 +21,70 @@
             <a href="/src/pages/contato.html">Contato</a>
           </div>
         </div>
-      </nav>
-    <!--<section class="inicio_loja">
-        <img class="img_loja" src="/src/assets/imgs/wallpaper_loja.webp">
-        <h2 class="title_loja">Conheça nossos vinhos abaixo!</h2>
-        <div class="ordenamento_loja">
-            <button class="loja_button">Ordenar</button>
-            <button class="loja_button">Filtrar</button>
-        </div>
-    </section>-->
+    </nav>
 
-    <section class="topo_loja">
-        <h3 class="paragrafo_loja">Descubra nossos vinhos</h3>
-    </section>
+    <div class="hero">
+        <h1>Descubra nossos vinhos</h1>
+    </div>
 
-    <section class="pesquisa_loja">
-        <h1 class="text_pesquisa">Pesquise seu vinho:</h1>
-        <input type="text" class="barra_pesquisa" placeholder="Digite aqui">
-        <div class="ordenamento_loja">
-            <button class="loja_button">Ordenar</button>
-            <button class="loja_button">Filtrar</button>
-        </div>
-    </section>
-    <section class="menu_loja">
-        <!--<div>
-            <h2 class="title_menu">Menu</h2>
-        </div>-->
-        <div class="produtos">
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_amancaya.webp">
-                <p class="nome_vinho">Vinho Amancaya 2021 Catena & Ch. Lafite-rothschild</p>
+    <div class="container">
+        <section>
+            <h2>Pesquise seu vinho:</h2>
+            <input type="text" class="barra_pesquisa" placeholder="Digite aqui">
+            <div class="ordenamento_loja">
+                <button class="button-assinar">Ordenar</button>
+                <button class="button-assinar">Filtrar</button>
             </div>
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_lapostolle.webp">
-                <p class="nome_vinho">Vinho Lapostolle Grand Selection Cabernet Sauvignon</p>
+        </section>
+
+        <section>
+            <h2>Produtos</h2>
+            <div class="valores">
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_amancaya.webp" alt="Vinho Amancaya">
+                    <p>Vinho Amancaya 2021 Catena & Ch. Lafite-rothschild</p>
+                    <p><strong>R$ 199,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_lapostolle.webp" alt="Vinho Lapostolle">
+                    <p>Vinho Lapostolle Grand Selection Cabernet Sauvignon</p>
+                    <p><strong>R$ 149,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_catena.webp" alt="Vinho Catena">
+                    <p>Vinho Dv Catena Tinto Histórico 2022 Catena Zapata</p>
+                    <p><strong>R$ 179,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_catena_pinot.webp" alt="Vinho Catena Pinot">
+                    <p>Vinho Dv Catena Pinot Noir Pinot Noir 2022 Catena</p>
+                    <p><strong>R$ 189,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_lapostolle_apalta.webp" alt="Vinho Lapostolle Apalta">
+                    <p>Vinho Tinto Lapostolle Apalta</p>
+                    <p><strong>R$ 249,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
+                <div class="valor-item">
+                    <img class="img_vinho" src="/src/assets/imgs/vinho_uxmal_malbec.webp" alt="Vinho Uxmal Malbec">
+                    <p>Vinho Tinto Uxmal Malbec</p>
+                    <p><strong>R$ 99,90</strong></p>
+                    <button class="button-assinar">Comprar</button>
+                </div>
             </div>
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_catena.webp">
-                <p class="nome_vinho">Vinho Dv Catena Tinto Histórico 2022 Catena Zapata</p>
-            </div>
-        </div>
-        <div class="produtos_2">
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_catena_pinot.webp">
-                <p class="nome_vinho">Vinho Dv Catena Pinot Noir Pinot Noir 2022 Catena</p>
-            </div>
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_lapostolle_apalta.webp">
-                <p class="nome_vinho">Vinho Tinto Lapostolle Apalta</p>
-            </div>
-            <div class="produto_1">
-                <img class="img_vinho" src="/src/assets/imgs/vinho_uxmal_malbec.webp">
-                <p class="nome_vinho">Vinho Tinto Uxmal Malbec</p>
-            </div>
-        </div>
-    </section>
-    
+        </section>
+    </div>
+
     <footer>
         <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
         <p>
           <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
         </p>
-      </footer>
-    
+    </footer>
 </body>
 </html>
