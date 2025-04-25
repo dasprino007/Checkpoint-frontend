@@ -1,86 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinheria Agnello - Contato</title>
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/contato.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a Vinheria Agnello. Preencha o formulário ou utilize as informações de contato disponíveis." />
+  <meta name="keywords" content="vinhos, vinheria, Agnello, tradição, sabor, seleção de vinhos" />
+  <meta name="author" content="Vinheria Agnello" />
+  <title>Contato | Vinheria Agnello</title>
+  <link rel="stylesheet" href="/src/css/style_sobre.css" />
 </head>
-
-<body>
-    <header>
-        <div class="logo-itens">
-          <img src="/src/assets/imgs/logo.png" alt="Logo Vinharia Agnello">
-          <span style="font-size: 1.2em; font-weight: bold;">Vinharia Agnello</span>
-        </div>
-        <nav>
-          <a href="/index.html">Início</a>
-          <a href="/src/pages/sobre.html">Sobre</a>
-          <a href="/src/pages/loja.html">Loja</a>
-          <a href="/src/pages/assinatura.html">Clube</a>
-          <a href="/src/pages/contato.html">Contato</a>
-        </nav>
-      </header>
-      
-    <div class="titulo">
-    <center>
-   <h1>Entre em Contato</h1>
-   <hr style="width: 13%;"><br>
-    </center>
-    <center>
-    <div class="form">
-    <form name="form_contato" id="form_contato" action="php/enviar_contato.php" method="post">
-            <p> <label> <b>Nome: </b></label></p>
-            <input type="text" label="nome" class="campo" name="nome"/>
-            <p> <label> <b>Sobrenome:</b></label></p>
-           
-            <input type="text" label="nome" class="campo" name="nome"/><br>
-            <p> <label for=" telefone"> <b>Telefone: </b></label></p>
-            <input type="text" class="campo" name="telefone" id="telefone" required/> <br><br>
-            <select>
-                <option value="assunto">Assunto</option>
-                <option value="duvida">Dúvida</option>
-                <option value="compra">Compra</option>
-                <option value="outro">Outro</option>
-            </select><br>
-            <textarea placeholder="Mensagem" rows="4"></textarea><br><br>
-            <button>Enviar Mensagem</button>
-        </form>
+<body class="contato-page">
+  <nav>
+    <div class="nav-container">
+      <a href="#" class="nav-logo">Vinheria Agnello</a>
+      <div class="nav-links">
+        <a href="/index.html">Início</a>
+        <a href="/src/pages/sobre.html">Sobre</a>
+        <a href="/src/pages/loja.html">Loja</a>
+        <a href="/src/pages/assinatura.html">Clube</a>
+        <a href="/src/pages/contato.html">Contato</a>
+      </div>
     </div>
-    </center><br>
+  </nav>
 
+  <div class="hero">
+    <h1>Entre em Contato</h1>
+  </div>
 
+  <div class="container">
+    <section>
+      <h2>Fale Conosco</h2>
+      <p>Preencha o formulário abaixo para entrar em contato conosco. Responderemos o mais breve possível!</p>
+      <form action="#" method="POST">
+        <div class="valores">
+          <div class="valor-item">
+            <label for="name"><strong>Nome:</strong></label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+          </div>
+          <div class="valor-item">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+          </div>
+        </div>
+        <div class="valor-item">
+          <label for="message"><strong>Mensagem:</strong></label>
+          <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+        <button type="submit" class="button-enviar">Enviar</button>
+      </form>
+    </section>
 
-
-    <hr>
-
-
-
-    <center>
-        <h1>Visite Nossa Vinícola</h1>
-    <img src="/src/assets/imgs/vinicula.jpg" alt="Vinícola">
-  
-      <h2>Experiência Completa</h2>
-      <p>Convidamos você a conhecer de perto o processo de produção dos nossos vinhos com uma visita guiada pelas nossas vinícolas. Durante o tour, você conhecerá os vinhedos, a adega de produção e participará de uma degustação exclusiva.</p>
-      <p><strong>O que inclui:</strong></p>
-      <ul style="list-style-type: none;">
-        <li>Tour pelos vinhedos</li>
-        <li>Visita à adega e barris</li>
-        <li>Explicação sobre o processo de produção</li>
-        <li>Degustação de vinhos</li>
-        <li>Kit de boas-vindas</li>
+    <section>
+      <h2>Informações de Contato</h2>
+      <p>Você também pode entrar em contato conosco pelos seguintes meios:</p>
+      <ul>
+        <li><strong>Telefone:</strong> (11) 3221-5678</li>
+        <li><strong>Email:</strong> agnello@vinheiria.com.br</li>
+        <li><strong>Endereço:</strong> Rua peixoto, 1222, São Paulo, SP</li>
       </ul>
-      <p><strong>Duração:</strong> 2 horas &nbsp;&nbsp;&nbsp; <strong>Valor:</strong> R$120,00 por pessoa</p>
-      <p><strong>Data:</strong> Terça a Sábado &nbsp;&nbsp;&nbsp; <strong>Horários:</strong> 10h, 14h e 16h</p>
-      <p><em>É necessário agendar com antecedência mínima de 48 horas.</em></p>
-      <button>Agendar Visita</button>
-    </center>
+    </section>
+  </div>
 
-    <br>
-    
-    <footer>
-        <p>&copy; 2025 Vinharia Agnello</p>
-      </footer>
+  <footer>
+    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    <p>
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    </p>
+  </footer>
 </body>
 </html>
