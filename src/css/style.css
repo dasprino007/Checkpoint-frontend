@@ -1,9 +1,15 @@
-html, body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fdf9f4;
     color: #333;
     line-height: 1.7;
-}
+  }
 
 nav {
     position: fixed;
