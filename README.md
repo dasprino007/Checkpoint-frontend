@@ -21,6 +21,7 @@ O projeto é composto pelas seguintes páginas:
 - RM561606 -> Vinicius Alexandre Aureliano Ribeiro
 - RM561982 -> Matheus Santos de Oliveira 
 - RM563467 -> Henrique Kolomyes Silveira
+- RM566424 -> Henrique de Oliveira Gomes
 - RM561662 -> Diego Leite Asprino
 
 ## 🌐 Link para o Site Publicado
