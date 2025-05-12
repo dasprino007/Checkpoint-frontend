@@ -15,6 +15,8 @@ O projeto é composto pelas seguintes páginas:
 - **`src/pages/loja.html`**: Página da loja, onde os usuários podem visualizar e comprar vinhos selecionados.
 - **`src/pages/assinatura.html`**: Página do clube de assinaturas, apresentando os planos disponíveis e os benefícios exclusivos para assinantes.
 - **`src/pages/contato.html`**: Página de contato, com um formulário para envio de mensagens e informações de contato da vinheria.
+- **`src/css/style.css`**: Arquivo com todo o códgio CSS.
+- **`src/css/efeitos.css`**: Arquivo com todo o código CSS voltado para animações.
 
 ## 👥 Nome dos Integrantes
 
