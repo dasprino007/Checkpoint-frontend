@@ -45,7 +45,7 @@ nav {
 }
 
 .nav-links a:hover {
-    letter-spacing: 1px; /* Aumenta o espaçamento entre letras */
+    letter-spacing: 1px;
     color: #f3cccc;
 }
 
@@ -271,7 +271,7 @@ ul {
 
 .hero-image img:hover {
     opacity: 1;
-    transform: scale(1); /* Retorna ao tamanho original */
+    transform: scale(1);
 }
 
 .hero-list {
@@ -326,8 +326,8 @@ button, .button-assinar, .button-saiba-mais {
 button:hover, .button-assinar:hover, .button-saiba-mais:hover {
     background-color: #f3cccc;
     color: #6b0f1a;
-    transform: scale(1.1); /* Aumenta levemente o botão */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     border-color: #f3cccc;
 }
 
@@ -362,12 +362,10 @@ button[type="submit"] {
     margin-top: 20px;
 }
 
-/* Transição suave para links e botões */
 a, button {
     transition: all 0.3s ease-in-out;
 }
 
-/* Animação de fade-in para o conteúdo principal */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -379,7 +377,6 @@ a, button {
     }
 }
 
-/* Animação para o iframe do vídeo */
 iframe {
     opacity: 0;
     transform: scale(0.95);
