@@ -1,0 +1,41 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero{
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero-section {
+        animation: fadeIn 1s ease-in-out;
+}
+
+.nossa-loja {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.sobre {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.index-main {
+    animation: fadeIn 1s ease-in-out;
+}
+
+iframe {
+    opacity: 0;
+    transform: scale(0.95);
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
