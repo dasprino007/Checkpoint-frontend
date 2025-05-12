@@ -2,352 +2,346 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fdf9f4;
     color: #333;
     line-height: 1.7;
-  }
-  
-  nav {
+}
+
+nav {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #6b0f1a;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .nav-container {
+}
+
+.nav-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
-  }
-  
-  .nav-logo {
+}
+
+.nav-logo {
     font-family: 'Playfair Display', serif;
     font-size: 1.8em;
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  .nav-links a {
+}
+
+.nav-links a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 25px;
     font-size: 1em;
     transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
+}
+
+.nav-links a:hover {
     color: #f3cccc;
-  }
-  
-  .hero {
+}
+
+.hero {
     position: relative;
     height: 400px;
-    background-image: url('../assets/imgs/wine-background.jpg');       
+    background-image: url('../assets/imgs/wine-background.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     margin-top: 70px;
-  }
-  
-  .hero::after {
+}
+
+.hero::after {
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .hero h1 {
-    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     color: #ffffff;
     z-index: 1;
     text-align: center;
     max-width: 80%;
-  }
-  
-  .container {
+    margin: 0;
+}
+
+.container {
     max-width: 1100px;
     margin: 60px auto;
     padding: 0 30px;
-  }
-  
-  section {
+}
+
+section {
     background-color: #ffffff;
     padding: 40px 30px;
     border-radius: 12px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
     margin-bottom: 40px;
-  }
+}
 
-  section h1 {
+section h1 {
     color: #6b0f1a;
     font-size: 2.5em;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
     border-left: 5px solid #912f40;
     padding-left: 15px;
-  }
-  
-  section h2 {
+}
+
+section h2 {
     color: #6b0f1a;
     font-size: 2em;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
     border-left: 5px solid #912f40;
     padding-left: 15px;
-  }
-  
-  section p {
+}
+
+section p {
     font-size: 1.1em;
     margin-bottom: 20px;
     color: #333;
-  }
-  
-  .valores {
+}
+
+.valores {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
-  }
-  
-  .valor-item {
+}
+
+.valor-item {
     background-color: #fdf9f4;
     padding: 40px;
     border-left: 5px solid #6b0f1a;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .valor-item:hover {
+    margin-top: 20px;
+}
+
+.valor-item:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .valor-item strong {
+}
+
+.valor-item strong {
     font-size: 1.2em;
     color: #6b0f1a;
     display: block;
     margin-bottom: 10px;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 40px 20px;
     background-color: #2b2b2b;
     color: #ffffff;
     font-size: 0.9em;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: #912f40;
-  }
-  
-  /* Loja */
+}
+
 .loja-page .hero {
-    background-image: url('../assets/imgs/entendendo-as-cores-dos-vinhos.jpg'); /* Caminho da imagem para a loja */
+    background-image: url('../assets/imgs/entendendo-as-cores-dos-vinhos.jpg');
     background-size: cover;
     background-position: center;
 }
 
-/* Assinatura */
 .assinatura-page .hero {
-    background-image: url('../assets/imgs/wine-pictures.jpg'); /* Caminho da imagem para assinatura */
+    background-image: url('../assets/imgs/wine-pictures.jpg');
     background-size: cover;
     background-position: center;
 }
-
 
 .contato-page .hero {
-    background-image: url('../assets/imgs/vinho-sar6tqxx8jy5d71x.jpg'); /* Caminho da imagem para contato */
+    background-image: url('../assets/imgs/vinho-sar6tqxx8jy5d71x.jpg');
     background-size: cover;
     background-position: center;
 }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .valor-item {
-    margin-top: 20px;
-  }
-  
-  .button-assinar {
-    background-color: #6b0f1a;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .button-assinar:hover {
-    background-color: #912f40;
-    transform: scale(1.05);
-  }
-  
-  .button-assinar:active {
-    transform: scale(0.95);
-  }
+}
 
-  .button-saiba-mais {
-    background-color: #6b0f1a;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .button-saiba-mais:hover {
-    background-color: #912f40;
-    transform: scale(1.05);
-  }
-  
-  .button-saiba-mais:active {
-    transform: scale(0.95);
-  }
-  
-  ul {
+ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .logo-itens {
-    display: flex;
-    align-items: center;
+}
+
+.logo-itens {
     gap: 10px;
-  }
-  
-  .footer-container{
+}
+
+.footer-container {
     display: block;
     padding: 5px 15px;
-  }
-  
-  .footer-about p, h3{
+}
+
+.footer-about p, h3 {
     margin: 3px;
-  }
-  
-  .footer-bottom{
+}
+
+.footer-bottom {
     margin: 10px 0px;
-  }
-  
-  .footer-bottom p{
+}
+
+.footer-bottom p {
     margin: 0px;
-  }
-  
-  .hero-section{
+}
+
+.hero-section {
     width: 100%;
     height: 300px;
     font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: #fdf9f4;
     margin-top: 78px;
-  }
-  
-  .container-index{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+.container-index {
     text-align: left;
     width: 800px;
-  }
-  
-  .heroes-images{
+    margin: 0 auto;
+}
+
+.heroes-images {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: #fdf9f4;
-  }
-  
-  .heroes-images h2{
+}
+
+.heroes-images h2 {
     width: 100%;
     display: block;
-  }
-  
-  .hero-image{
+}
+
+.hero-image {
     width: 170px;
     height: 220px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     border-radius: 5%;
     padding: 10px;
     margin-left: 30px;
-  }
-  
-  .hero-image img{
+    text-align: center;
+}
+
+.hero-image img {
     height: 175px;
     width: auto;
-  }
-  
-  .hero-list{
+}
+
+.hero-list {
     display: block;
-  }
-  
-  .list-wines{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .nossa-loja{
+}
+
+.list-wines {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 20px;
+}
+
+.nossa-loja {
     width: 100%;
     height: 700px;
     font-size: larger;
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: #fdf9f4;
-  }
-  
-  .sobre{
+}
+
+.sobre {
     height: 300px;
     width: 100%;
     font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background-color: #fdf9f4;
-  }
-  
-  .index-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}
+
+.index-main {
+    text-align: center;
+}
+
+button, .button-assinar, .button-saiba-mais {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #6b0f1a;
+    border: 2px solid #6b0f1a;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .button-assinar:hover, .button-saiba-mais:hover {
+    background-color: #f3cccc;
+    color: #6b0f1a;
+    transform: scale(1.05);
+    border-color: #f3cccc;
+}
+
+button:active, .button-assinar:active, .button-saiba-mais:active {
+    transform: scale(0.95);
+    background-color: #912f40;
+    border-color: #912f40;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+}
+
+.section-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-buttons button, .section-buttons .button-assinar, .section-buttons .button-saiba-mais {
+    margin: 10px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.button-ordenar {
+    margin-top: 20px;
+}
+.button-filtrar {
+  margin-top: 20px;
+}
 
