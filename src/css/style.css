@@ -45,6 +45,7 @@ nav {
 }
 
 .nav-links a:hover {
+    letter-spacing: 1px; /* Aumenta o espaçamento entre letras */
     color: #f3cccc;
 }
 
@@ -56,6 +57,7 @@ nav {
     background-position: center;
     text-align: center;
     margin-top: 70px;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .hero::after {
@@ -86,6 +88,7 @@ nav {
     max-width: 1100px;
     margin: 60px auto;
     padding: 0 30px;
+    animation: fadeIn 1s ease-in-out;
 }
 
 section {
@@ -226,6 +229,7 @@ ul {
     text-align: center;
     background-color: #fdf9f4;
     margin-top: 78px;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .container-index {
@@ -260,6 +264,14 @@ ul {
 .hero-image img {
     height: 175px;
     width: auto;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.hero-image img:hover {
+    opacity: 1;
+    transform: scale(1); /* Retorna ao tamanho original */
 }
 
 .hero-list {
@@ -279,6 +291,7 @@ ul {
     color: black;
     text-align: center;
     background-color: #fdf9f4;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .sobre {
@@ -287,10 +300,12 @@ ul {
     font-size: large;
     text-align: center;
     background-color: #fdf9f4;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .index-main {
     text-align: center;
+    animation: fadeIn 1s ease-in-out;
 }
 
 button, .button-assinar, .button-saiba-mais {
@@ -311,7 +326,8 @@ button, .button-assinar, .button-saiba-mais {
 button:hover, .button-assinar:hover, .button-saiba-mais:hover {
     background-color: #f3cccc;
     color: #6b0f1a;
-    transform: scale(1.05);
+    transform: scale(1.1); /* Aumenta levemente o botão */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
     border-color: #f3cccc;
 }
 
@@ -341,7 +357,33 @@ button[type="submit"] {
 .button-ordenar {
     margin-top: 20px;
 }
+
 .button-filtrar {
-  margin-top: 20px;
+    margin-top: 20px;
+}
+
+/* Transição suave para links e botões */
+a, button {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animação de fade-in para o conteúdo principal */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animação para o iframe do vídeo */
+iframe {
+    opacity: 0;
+    transform: scale(0.95);
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 
