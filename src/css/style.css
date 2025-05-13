@@ -229,7 +229,8 @@ ul {
 
 .heroes-images h2 {
     width: 100%;
-    display: block;
+    display: inline;
+    margin-bottom: 10px;
 }
 
 .hero-image {
@@ -320,66 +321,4 @@ button[type="submit"] {
 
 .button-filtrar {
     margin-top: 20px;
-}
-
-
-
-
-p::first-letter:not(footer){
-    color: #6b0f1a;
-    text-transform: uppercase;
-}
-
-h1::first-line{
-    color: #fd001e;
-    font-weight: bolder;
-}
-
-h1::after{
-    content: ".";
-}
-
-input, textarea{
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-}
-
-input:focus{
-    transform: scale(1.1);
-    background-color: rgb(247, 213, 150);
-}
-
-textarea:focus{
-    transform: scale(1.05);
-    background-color: rgb(247, 213, 150);
-}
-
-input[type="email"]:invalid{
-    background-color: #6b0f1a;
-}
-
-.mais-info {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: opacity 0.4s ease, max-height 0.4s ease;
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #555;
-}
-
-.valor-item:hover .mais-info {
-  opacity: 1;
-  max-height: 200px;
-}
-.beneficio-card {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.beneficio-card:hover {
-  transform: scale(1.04);
-  box-shadow: 0 0 16px rgba(0,0,0,0.15);
 }
