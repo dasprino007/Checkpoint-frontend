@@ -6,6 +6,15 @@ A Vinheria Agnello é uma empresa familiar que atua há mais de 15 anos no merca
 
 Devido à pandemia, a Vinheria enfrentou desafios significativos, como a queda no movimento da loja física. Para superar essas dificuldades, o proprietário Giulio, incentivado por sua filha Bianca, decidiu investir no desenvolvimento de um portal de e-commerce. O objetivo é levar a tradição e excelência da Vinheria Agnello para o ambiente digital, mantendo a qualidade no atendimento e proporcionando uma experiência única aos amantes de vinhos.
 
+🎨 Efeitos Especiais
+
+Para tornar a experiência do usuário mais interativa e visualmente atrativa, aplicamos diversos efeitos especiais em diferentes elementos da interface. Esses efeitos foram desenvolvidos no arquivo src/css/efeitos.css, e estão presentes em:
+
+  - Botões: Animações ao passar o mouse (hover), transições suaves de cor e sombra para realçar a interatividade.
+  - Inputs de formulário: Destaques visuais ao receber foco, melhorando a usabilidade e a estética.
+  - Cards de produtos e planos: Efeitos de escala, sombreamento e realce ao passar o cursor, proporcionando uma sensação de profundidade e dinamismo.
+  - Elementos diversos: Transições suaves em seções, aparições com fade-in e pequenos movimentos para dar mais vida ao site.
+    
 ## 📂 Estrutura do Projeto
 
 O projeto é composto pelas seguintes páginas:
