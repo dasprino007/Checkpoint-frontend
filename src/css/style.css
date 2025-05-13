@@ -130,7 +130,6 @@ section p {
     margin-top: 20px;
     position: relative;
 }
-
 .valor-item strong {
     font-size: 1.2em;
     color: #6b0f1a;
@@ -356,4 +355,31 @@ textarea:focus{
 
 input[type="email"]:invalid{
     background-color: #6b0f1a;
+}
+
+.mais-info {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.valor-item:hover .mais-info {
+  opacity: 1;
+  max-height: 200px;
+}
+.beneficio-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.beneficio-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 16px rgba(0,0,0,0.15);
 }
