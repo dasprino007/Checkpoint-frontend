@@ -39,3 +39,6 @@ iframe {
     animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 0.5s;
 }
+input:focus{
+    background-color: #ffe8eb;
+}
