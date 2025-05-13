@@ -42,6 +42,11 @@ iframe {
 input:focus{
     background-color: #ffe8eb;
 }
-.valor-item:hover{
+/*.valor-item:hover{
     border: 5px solid #6b0f1a;
+}*/
+*::selection{
+    background-color: #6b0f1ae0;
+    color: white;
 }
+
